@@ -10,9 +10,9 @@
     <body>
         <div class="container ">
             <h1 class="text-center pb-2">Contato</h1>
-            <div class="form w-25 h-50 mx-auto ">
+            <div class="form w-50 h-50 mx-auto ">
                 <div class="row">
-                    <div class="col">
+                    <div class="col-4">
                         <div class="form-group">
                             <span class="manu-user"></span>  
                             <label for="exampleFormControlInput1">Nome completo</label>                           
@@ -20,10 +20,12 @@
                         </div>
                         <div class="form-group">
                             <span class="manu-whatsapp"></span>  
-                            <label for="exampleFormControlInput1">Telefone</label>
+                            <label for="exampleFormControlInput1">Celular</label>
 
                             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
                         </div>
+                    </div>
+                    <div class="col-4">
                         <div class="form-group">
                             <span class="manu-envelop"></span>
                             <label for="exampleFormControlInput1">E-mail</label>
@@ -35,30 +37,32 @@
                             <span class="manu-document"></span>
                             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
                         </div>
+                    </div>
+                    <div class="col-4">
                         <div class="form-group">
                             <span class="manu-barcode"></span>
                             <label for="exampleFormControlInput1">Código do Produto</label>
                             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
                         </div>
+
                         <div class="form-group">
                             <span class="manu-credit-card"></span>
-                            <label for="exampleFormControlSelect1">Forma de Pagamento</label>
+                            <label for="exampleFormControlSelect1">Pagamento</label>
                             <select class="form-control" id="exampleFormControlSelect1">
                                 <option>Crédito</option>
                                 <option>Débito</option>
                                 <option>Boleto</option>
                                 <option>Outros</option>
                             </select>
-                        </div>
-                        <div class="form-group">
-                            <span class="manu-bubbles4"></span>
-                            <label for="exampleFormControlTextarea1">Observação</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                        </div>
-
-                        <button class="btn btn-block btn-danger">Enviar Pedido</button>
+                        </div>       
                     </div>
                 </div>
+                <div class="form-group w-100 ">
+                    <span class="manu-bubbles4"></span>
+                    <label for="exampleFormControlTextarea1">Observação</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button class="btn btn-block btn-danger">Enviar Pedido</button>
             </div>
         </div>
     </body>
